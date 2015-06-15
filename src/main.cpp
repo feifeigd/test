@@ -2,9 +2,9 @@
 using std::cout;
 using std::endl;
 
-int main(int argc, char* argv[]){
+int main(int argc, char* argv[]){atomic
 	cout << "hello test" << endl;
 	cout << "hello test2" << endl;
 	cout << "hello test3" << endl;
-	return 0; // 返回非0，Jenkins会任务失败
+	//return 0; // 返回非0，Jenkins会任务失败
 }
